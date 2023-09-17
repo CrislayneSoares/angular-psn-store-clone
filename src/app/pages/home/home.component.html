@@ -1,31 +1,46 @@
 <div class="home__container">
-	<app-card
-		gameCover="assets/bt-1.jpg"
-		gameLabel="DIGITAL"
-		gameType="DIGITAL | PS4"
-		gamePrice="R$ 129,99"
-	>
-	</app-card>
-	<app-card
-		gameCover="assets/bt-4.jpg"
-		gameLabel="EXCLUSIVE"
-		gameType="DISC | PS5"
-		gamePrice="R$ 269,99"
-	>
-	</app-card>
-	<app-card
-		gameCover="assets/ac-cover.jpg"
-		gameLabel="BEST OF YEAR"
-		gameType="DIGITAL | PS5"
-		gamePrice="R$ 369,99"
+	<div class="home__container-cover">
+		<app-page-cover 
+			urlCover="https://image.api.playstation.com/pr/bam-art/163/109/4642eea7-221a-4d2d-bc43-5d703a53fd9f.png?w=440&thumb=false"
+			urlCoverBackground="https://image.api.playstation.com/pr/bam-art/163/109/56af6f56-5d24-4e3d-beec-c801f91632ef.jpg?w=1920&thumb=false"></app-page-cover>
+	</div>
+	
+	<div class="home__container-title">
+		<app-title-button 
+			title="GRANDES JOGOS, GRANDES DESCONTOS"
+			textButton="Economize Já"></app-title-button>
+	</div>
+
+	<div class="home__container-card">
+		<app-card
+			gameCover="assets/bt-1.jpg"
+			gameLabel="DIGITAL"
+			gameType="DIGITAL | PS4"
+			gamePrice="R$ 129,99"
 		>
-	</app-card>
-	<app-card
-		gameCover="assets/bt-hardline.jpg"
-		gameLabel="NEW"
-		gameType="DIGITAL | PS3 PS4 PS5"
-		gamePrice="R$ 369,99"
-	>
-	</app-card>
+		</app-card>
+		<app-card
+			gameCover="assets/bt-4.jpg"
+			gameLabel="EXCLUSIVE"
+			gameType="DISC | PS5"
+			gamePrice="R$ 269,99"
+		>
+		</app-card>
+		<app-card
+			gameCover="assets/ac-cover.jpg"
+			gameLabel="BEST OF YEAR"
+			gameType="DIGITAL | PS5"
+			gamePrice="R$ 369,99"
+			>
+		</app-card>
+		<app-card
+			gameCover="assets/bt-hardline.jpg"
+			gameLabel="NEW"
+			gameType="DIGITAL | PS3 PS4 PS5"
+			gamePrice="R$ 369,99"
+		>
+		</app-card>
+	</div>
+	
 </div>
 

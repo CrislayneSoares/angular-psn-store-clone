@@ -1,0 +1,29 @@
+.container__footer {
+    margin-top: 20px;
+    padding: 30px 50px;
+    background-color: #003697;
+    color: white;
+}
+.container__footer figure {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__footer figure img {
+    width: 32px;
+}
+
+.container__footer nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.container__footer ul li {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.copyright {
+    text-align: center;
+}

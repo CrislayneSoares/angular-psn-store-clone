@@ -1,4 +1,7 @@
-.home__container{
+.home__container {
+	width: 100%;
+}
+.home__container-card{
 	width: 90%;
 	margin: auto;
 	padding-top: 50px;
@@ -7,4 +10,13 @@
 	justify-content: space-around;
 	align-items: baseline;
 	flex-wrap: wrap;
+}
+
+.home__container-cover {
+	margin: 40px 0 0 0;
+}
+
+.home__container-title {
+	padding: 26px 0;
+	box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
 }

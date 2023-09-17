@@ -1,0 +1,33 @@
+.container__title-button {
+    width: 100%;
+
+}
+
+.title-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__title-button h2, button {
+    margin: 0px 50px;
+    font-weight: 200;
+}
+
+.container__title-button p {
+    margin: 10px 50px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.container__title-button button {
+    background-color: #0072CE;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+
+.container__title-button button:hover {
+    background-color: #005499;
+}

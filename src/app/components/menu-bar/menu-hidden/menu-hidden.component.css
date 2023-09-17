@@ -1,0 +1,37 @@
+.container__menu-hidden {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.container__menu-hidden-logo > img {
+    width: 30px;
+    margin: 5px 10px;
+}
+
+.container__menu-hidden-nav > ul{
+    display: flex;
+    list-style: none;
+}
+
+.container__menu-hidden-nav > ul > li {
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.container__menu-hidden-nav > ul > li:hover {
+    color: #0072CE;
+    cursor: pointer;
+}
+
+.container__menu-hidden-nav button {
+    background: none;
+    text-align: center;
+    cursor: pointer;
+}
+.container__menu-hidden-nav button img {
+    width: 12px;
+    padding: 0 2px;
+}
