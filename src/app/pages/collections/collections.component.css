@@ -1,0 +1,22 @@
+.collection__container {
+	width: 100%;
+}
+.collection__container-card{
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+
+.collection__container-cover {
+	margin: 40px 0 0 0;
+}
+
+.collection__container-title {
+	padding: 26px 0;
+	box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
+}
